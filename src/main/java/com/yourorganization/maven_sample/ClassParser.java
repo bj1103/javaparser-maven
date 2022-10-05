@@ -35,7 +35,7 @@ public class ClassParser {
                                     sb.append("+ ");
                                     break;
                                 case "private":
-                                    sb.append("+ ");
+                                    sb.append("- ");
                                     break;
                                 case "protected":
                                     sb.append("# ");
@@ -63,7 +63,7 @@ public class ClassParser {
                             sb.append("+ ");
                             break;
                         case "private":
-                            sb.append("+ ");
+                            sb.append("- ");
                             break;
                         case "protected":
                             sb.append("# ");
